@@ -12,34 +12,34 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Title)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Description)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.ReleaseYear)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Duration)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Rating)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.PosterURL)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Genre)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Country)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Actor)
             </th>
-            <th>
+            <th style="color: burlywood;">
                 @Html.DisplayNameFor(model => model.Studio)
             </th>
             <th></th>
@@ -48,34 +48,35 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
+            <td style="color: burlywood;">
+                    @Html.DisplayFor(modelItem => item.Description)
             </td>
-            <td>
+            <td style="color: burlywood;">
+
                 @Html.DisplayFor(modelItem => item.ReleaseYear)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Duration)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.PosterURL)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Genre.Name)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Country.Name)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Actor.FirstName)
             </td>
-            <td>
+            <td style="color: burlywood;">
                 @Html.DisplayFor(modelItem => item.Studio.Name)
             </td>
             <td>
